@@ -7,7 +7,7 @@ const port = process.env.PORT || 3000;
 app.use(express.json());
 
 mongoose.connect(
-  "mongodb+srv://MongoMan:Nhipata11!@cluster0.zfzxg.mongodb.net/auth?retryWrites=true&w=majority",
+  "mongodb+srv://MongoMan:<password>@cluster0.zfzxg.mongodb.net/auth?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     // useFindAndModify: false,
