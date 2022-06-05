@@ -19,7 +19,7 @@ app.get("/", async (request, response) => {
 const transport = nodemailer.createTransport({
   service: "Gmail",
   auth: {
-    user: "nabilafzal22@gmail.com",
+    user: "user@gmail.com",
     pass: "xxxvggvcybeazarr",
   },
 });
